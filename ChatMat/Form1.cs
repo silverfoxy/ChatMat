@@ -43,11 +43,19 @@ namespace ChatMat
         {
             try
             {
-                using (StreamReader sr = new StreamReader("settings.txt"))
+                if (File.Exists("settings.txt"))
                 {
-                    string addr = sr.ReadLine();
-                    ipAddr = addr.Split(':')[0].ToString();
-                    port = int.Parse(addr.Split(':')[1].ToString());
+                    using (StreamReader sr = new StreamReader("settings.txt"))
+                    {
+                        string addr = sr.ReadLine();
+                        ipAddr = addr.Split(':')[0].ToString();
+                        port = int.Parse(addr.Split(':')[1].ToString());
+                    }
+                }
+                else
+                {
+                    ipAddr = "127.0.0.1";
+                    port = 8080;
                 }
             }
             catch (Exception)
