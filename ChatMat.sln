@@ -1,0 +1,20 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 2012
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ChatMat", "ChatMat\ChatMat.csproj", "{FA864F3E-B0D6-4B4A-824B-9639EEE1D73E}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{FA864F3E-B0D6-4B4A-824B-9639EEE1D73E}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{FA864F3E-B0D6-4B4A-824B-9639EEE1D73E}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{FA864F3E-B0D6-4B4A-824B-9639EEE1D73E}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{FA864F3E-B0D6-4B4A-824B-9639EEE1D73E}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal
